@@ -1,0 +1,22 @@
+{
+  "name": "fintest",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "faucet",
+	"run": "budo src/main.ts --live -- -p tsify"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^16.1.1",
+    "budo": "^11.2.0",
+    "tape": "^4.9.0",
+    "tsify": "^3.0.4",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
