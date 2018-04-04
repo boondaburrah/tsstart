@@ -5,11 +5,12 @@
   "main": "main.js",
   "scripts": {
     "test": "faucet",
-	"run": "budo src/main.ts --live -- -p tsify"
+    "run": "budo src/main.ts --live -- -p tsify"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/ramda": "^0.25.21",
     "browserify": "^16.1.1",
     "budo": "^11.2.0",
     "tape": "^4.9.0",
